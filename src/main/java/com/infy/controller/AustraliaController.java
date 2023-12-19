@@ -2,15 +2,13 @@ package com.infy.controller;
 import com.infy.model.Australia;
 import com.infy.repo.AustraliaRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
 
 @RestController
+@RequestMapping("/api")
 public class AustraliaController {
     @Autowired
     AustraliaRepo repo;
