@@ -22,4 +22,7 @@ public class India{
 
     private Float teamSalary;
 
+    private Float teamNumber;
+
+
 }
