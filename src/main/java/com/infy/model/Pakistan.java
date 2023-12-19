@@ -22,6 +22,7 @@ public class Pakistan{
     private Float teamSalary;
 
     private  String extra;
+    private String over;
 
 }
 
